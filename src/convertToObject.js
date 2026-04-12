@@ -13,7 +13,7 @@ function convertToObject(sourceString) {
     const styleKey = key.trim();
     const styleValue = value.trim();
 
-    acc[styleKey] = styleValue;
+    acc[styleKey] = styleValue; // комментарий
 
     return acc;
   }, {});
